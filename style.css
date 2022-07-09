@@ -1,0 +1,528 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+}
+header {
+  width: 100%;
+  color: #6d1f36;
+  background-color: white;
+  height: 130px;
+}
+nav {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  display: flex;
+  justify-content: center;
+}
+.outer {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  margin: 15px 70px 10px 0px;
+}
+.navBar {
+  width: 60%;
+  margin: 35px 0px 35px 0px;
+  display: flex;
+}
+.navItems {
+  width: 10%;
+  height: 60%;
+  letter-spacing: 1px;
+  margin: 0px 33px 0px 0px;
+}
+.navText {
+  font-size: 18px;
+}
+
+.navBar2 {
+  width: 10%;
+  height: 5%;
+  display: flex;
+}
+.avatar {
+  margin: 30px 10px 10px 10px;
+}
+.cart {
+  margin: 30px 10px 10px 10px;
+}
+
+.bannerDiv {
+  width: 100%;
+  height: 30%;
+  background-color: #b41e46;
+  display: flex;
+}
+.banner {
+  margin: auto;
+  letter-spacing: 1px;
+  color: white;
+}
+.contentArea {
+  width: 100%;
+  height: 450px;
+  display: flex;
+}
+.contentArea .content {
+  width: 31%;
+  padding: 2% 0px 0px 35%;
+}
+.contentArea .content .headerDiv {
+  width: 100%;
+  height: 2%;
+  display: flex;
+  justify-content: center;
+}
+.contentArea .content img {
+  width: 110px;
+  margin: -3px 0px 0px 40px;
+}
+.contentArea .content .headerDiv h1 {
+  font-size: 48px;
+  color: #6d1f36;
+}
+.contentArea .content .paraDiv {
+  height: 50%;
+  margin-top: 22%;
+  justify-content: center;
+}
+.contentArea .content .paraDiv p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 30px;
+}
+.contentArea .awardDiv img {
+  margin: -1% 0% 0% -500%;
+  width: 50%;
+}
+.contentArea .beansInverted img {
+  margin: 6% 0% 0% -79%;
+  width: 14%;
+  position: absolute;
+}
+.contentArea .beans img {
+  margin: -4% 0% 0% 7%;
+  position: absolute;
+  width: 14%;
+  z-index: -1;
+}
+.productOuter {
+  width: 100%;
+  height: 650px;
+  background-color: #f3f2ef;
+  display: flex;
+  justify-content: center;
+}
+.navigation{
+  width: 75%;
+  height: 75%;
+  display: flex;
+  margin: auto;
+}
+.navigation .leftButton{
+  margin: auto;
+  color: #6d1f36;
+  font-weight: bolder;
+  transform: scale(1,2.5);
+  font-family: 'Courier New', Courier, monospace;
+}
+.navigation .rightButton{
+  margin: auto;
+  color: #6d1f36;
+  font-weight: bolder;
+  transform: scale(1,2.5);
+  font-family: 'Courier New', Courier, monospace;
+}
+.productOuter .beanRoundedCenter {
+  width: 100%;
+  height: 20%;
+  margin-top: -3%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+.productOuter .beanRoundedCenter img {
+  width: 6%;
+  height: min-content;
+}
+.productOuter .prouductInnerDiv {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  background-image: #6d1f36;
+  display: flex;
+}
+.productOuter .prouductInnerDiv .left {
+  width: 50%;
+  height: 100%;
+}
+.productOuter .prouductInnerDiv .left .subHeading {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+}
+.productOuter .prouductInnerDiv .left .subHeading span {
+  margin: 0;
+  font-weight: 600;
+  color: #404040;
+  letter-spacing: -0.5px;
+}
+.productOuter .prouductInnerDiv .left .heading {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7%;
+}
+.productOuter .prouductInnerDiv .left .heading span {
+  font-size: 42px;
+  color: #6d1f36;
+  font-weight: 600;
+  text-align: center;
+}
+
+.productOuter .prouductInnerDiv .left .para {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.productOuter .prouductInnerDiv .left .para p {
+  width: 90%;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  line-height: 28px;
+  transform: scale(1.1,1);
+}
+.productOuter .prouductInnerDiv .left .buyNow {
+  width: 100%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+}
+.productOuter .prouductInnerDiv .left .buyNow a {
+  width: 20%;
+  height: 100%;
+}
+.productOuter .prouductInnerDiv .left .buyNow button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  color: white;
+  background-color: #6d1f36;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: medium;
+}
+.productOuter .prouductInnerDiv .right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.productOuter .buttons {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  align-self: end;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+.productOuter .buttons .slideButtons {
+  width: 2.2%;
+  height: 16%;
+  display: flex;
+}
+.productOuter .buttons .slideButtons button {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #6d1f36;
+  border: none;
+  margin: 7%;
+}
+.story {
+  width: 100%;
+  height: 700px;
+  margin-top: 6%;
+  background-image: url(./Images/bakground/Story.jpg);
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.story .center {
+  width: 45%;
+  height: 60%;
+  margin: auto;
+  background-color: #6d1f36;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.story .center .align {
+  width: 68%;
+  height: 80%;
+  margin: auto;
+}
+.story .center .align .subHeading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.story .center .align .subHeading h4 {
+  margin: 0;
+}
+.story .center .align .heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.story .center .align .heading h1 {
+  margin: 6px 0px 0px 0px;
+  font-size: 42px;
+  text-align: center;
+  font-weight: 600;
+}
+.story .center .align .para {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+.story .center .align .para p {
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  line-height: 28px;
+}
+.story .center .align .learnMore {
+  width: 100%;
+  height: 18%;
+  display: flex;
+  justify-content: center;
+}
+.story .center .align .learnMore a {
+  width: 20%;
+  height: 70%;
+  margin: auto;
+}
+.story .center .align .learnMore button {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  color: #6d1f36;
+  width: 100%;
+  height: 100%;
+  font-weight: 700;
+  font-size: 18px;
+}
+.smartCafe {
+  width: 100%;
+  height: 650px;
+  background-image: url(./Images/bakground/SmartCafe.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+.smartCafe .center {
+  width: 60%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+}
+.smartCafe .center .left {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.smartCafe .center .left .align {
+  width: 87%;
+  height: 80%;
+  margin: auto;
+}
+
+.smartCafe .center .left .align .subHeading {
+  width: 100%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+}
+.smartCafe .center .left .align .subHeading h4 {
+  margin: 0;
+  margin: auto;
+  letter-spacing: 0.3px;
+}
+
+.smartCafe .center .left .align .heading {
+  width: 100%;
+  height: 14%;
+  display: flex;
+  justify-content: center;
+}
+.smartCafe .center .left .align .heading h3 {
+  margin: 0;
+  margin: auto;
+  font-size: 36px;
+  color: #6d1f36;
+  letter-spacing: 0.3px;
+}
+.smartCafe .center .left .align .para {
+  width: 85%;
+  height: 15%;
+  margin: 0% 7.5% 0% 7.5%;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.smartCafe .center .left .align .para p {
+  font-size: 18px;
+  font-weight: 300;
+  word-spacing: 2px;
+  text-align: center;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.smartCafe .center .left .align .learnMore {
+  width: 22%;
+  height: 10%;
+  margin: 12% 10% 5% 40%;
+}
+.smartCafe .center .left .align .learnMore button {
+  background-color: #6d1f36;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.smartCafe .center .right {
+  width: 40%;
+}
+.smartCafe .center .right img {
+  margin: -10% 0% 0% 20%;
+}
+.signBanner {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  background-color: #89764b;
+}
+.signBanner .center {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.signBanner .center span {
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: 500;
+}
+.signBanner .center span .bold {
+  font-weight: 700;
+}
+.signBanner .center button {
+  margin: auto;
+  width: 15%;
+  height: 70%;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: #6d1f36;
+  font-weight: 600;
+  font-size: 18px;
+}
+footer {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  background-color: #6d1f36;
+  flex-wrap: wrap;
+}
+footer .center {
+  width: 65%;
+  height: 75%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .center .upper{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .center .lower{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
+footer .center .upper .blocks{
+  width: 15%;
+  height: 100px;
+  display: grid;
+  margin: 1% 4% 1% 1%;
+}
+footer .center .upper .blocks h3{
+  color: white;
+}
+footer .center .upper .blocks a{
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  line-height: 34px;
+}
+footer .center .lower {
+  display: flex;
+
+}
+footer .center .lower .contain{
+  margin: 2%;
+}
+footer .center .lower .contain span{
+  color: white;
+  font-weight: 600;
+}
+footer .center .lower .contain .social{
+  margin-top: 8%;
+}
+footer .copyRight{
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  align-self: end;
+  display: flex;
+  justify-content: center;
+}
+footer .copyRight span{
+  margin: auto;
+  color: white;
+  font-size: 14px;
+  transform: scale(1.1,1);
+}
